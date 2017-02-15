@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>hduhky&#39;s blog</title>
-  <meta name="description" content="">
+  <title>tableView上的button点击无效果</title>
+  <meta name="description" content="iOS tableView上的button点击无效果">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/jekyll/update/2017/02/15/tableView%E4%B8%8A%E7%9A%84button%E7%82%B9%E5%87%BB%E6%97%A0%E6%95%88%E6%9E%9C.html">
   <link rel="alternate" type="application/rss+xml" title="hduhky&#39;s blog" href="/feed.xml">
   
   
@@ -58,44 +58,39 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
-  
-  
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">tableView上的button点击无效果</h1>
+    <p class="post-meta"><time datetime="2017-02-15T13:21:03+08:00" itemprop="datePublished">Feb 15, 2017</time></p>
+  </header>
 
+  <div class="post-content" itemprop="articleBody">
+    <h3 id="ios-tableview上的button点击无效果">iOS tableView上的button点击无效果</h3>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Feb 15, 2017</span>
+<ul>
+  <li>button 设置了 Normal 和 Highlighted 两种背景图</li>
+  <li>button 只添加了 TouchUpInside 方法</li>
+</ul>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2017/02/15/Weker%E4%BA%91%E5%AF%B9%E8%AE%B2App%E6%A6%82%E8%BF%B0.html">Weker云对讲App概述</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 15, 2017</span>
+<p>Q: 在正常（较为快速）的点击时，根本不显示 Highlighted 效果图，而 长按 时有高亮效果</p>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2017/02/15/tableView%E4%B8%8A%E7%9A%84button%E7%82%B9%E5%87%BB%E6%97%A0%E6%95%88%E6%9E%9C.html">tableView上的button点击无效果</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 5, 2017</span>
+<h5 id="解决方法">解决方法</h5>
+<div class="highlighter-rouge"><pre class="highlight"><code>self.tableView.delaysContentTouches = NO;
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2017/02/05/%E6%90%BA%E6%89%8B%E6%BA%A2%E5%AE%B6-%E5%B9%B8%E7%A6%8F%E4%B8%87%E5%AE%B6.html">携手溢家  幸福万家</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
+for (UIView *currentView in self.tableView.subviews) {
+    if([currentView isKindOfClass:[UIScrollView class]]) {
+        ((UIScrollView *)currentView).delaysContentTouches = NO;
+        break;
+    }
+}
+</code></pre>
 </div>
+
+  </div>
+
+  
+</article>
 
       </div>
     </main>

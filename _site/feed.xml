@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-07T11:36:22+08:00</updated><id>http://localhost:4000//</id><title type="html">hduhky’s blog</title><entry><title type="html">携手溢家  幸福万家</title><link href="http://localhost:4000/jekyll/update/2017/02/05/%E6%90%BA%E6%89%8B%E6%BA%A2%E5%AE%B6-%E5%B9%B8%E7%A6%8F%E4%B8%87%E5%AE%B6.html" rel="alternate" type="text/html" title="携手溢家  幸福万家" /><published>2017-02-05T10:11:03+08:00</published><updated>2017-02-05T10:11:03+08:00</updated><id>http://localhost:4000/jekyll/update/2017/02/05/%E6%90%BA%E6%89%8B%E6%BA%A2%E5%AE%B6%20%20%E5%B9%B8%E7%A6%8F%E4%B8%87%E5%AE%B6</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/02/05/%E6%90%BA%E6%89%8B%E6%BA%A2%E5%AE%B6-%E5%B9%B8%E7%A6%8F%E4%B8%87%E5%AE%B6.html">&lt;p&gt;&lt;img src=&quot;https://hduhky.github.io/sources/yijia_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-15T13:27:03+08:00</updated><id>http://localhost:4000//</id><title type="html">hduhky’s blog</title><entry><title type="html">Weker云对讲App概述</title><link href="http://localhost:4000/jekyll/update/2017/02/15/Weker%E4%BA%91%E5%AF%B9%E8%AE%B2App%E6%A6%82%E8%BF%B0.html" rel="alternate" type="text/html" title="Weker云对讲App概述" /><published>2017-02-15T13:25:03+08:00</published><updated>2017-02-15T13:25:03+08:00</updated><id>http://localhost:4000/jekyll/update/2017/02/15/Weker%E4%BA%91%E5%AF%B9%E8%AE%B2App%E6%A6%82%E8%BF%B0</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/02/15/Weker%E4%BA%91%E5%AF%B9%E8%AE%B2App%E6%A6%82%E8%BF%B0.html">&lt;h2 id=&quot;weker云对讲app概述&quot;&gt;Weker云对讲App概述&lt;/h2&gt;
+&lt;h4 id=&quot;weker云对讲提供了一个方便的小区门禁系统解决方案app兼容ios80及以上可在app-store上输入关键字weker云对讲搜索下载&quot;&gt;Weker云对讲提供了一个方便的小区门禁系统解决方案，App兼容iOS8.0及以上，可在App Store上输入关键字Weker云对讲搜索下载。&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;音视频对讲：随时随地与访客进行音视频对讲，轻轻一点，远程开启门禁，再没有拒之门外的尴尬，安心；&lt;/li&gt;
+  &lt;li&gt;云物业管理：不会再错过重要的通知，投诉、报修快速响应，贴心；&lt;/li&gt;
+  &lt;li&gt;O2O服务：足不出户应有尽有，搭建一站式社区服务平台，开心；&lt;/li&gt;
+  &lt;li&gt;自主分享家：给亲爱的朋友分享门禁钥匙，出入从未如此方便，放心。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;使用语言objective-c&quot;&gt;使用语言：Objective-C&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Objective-C，通常写作ObjC或OC和较少用的Objective C或Obj-C，是扩充C的面向对象编程语言。它主要使用于Mac OS X和GNUstep这两个使用OpenStep标准的系统，而在NeXTSTEP和OpenStep中它更是基本语言。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;框架结构mvc&quot;&gt;框架结构：MVC&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;从字面意思来理解，MVC 即 Modal View Controller（模型 视图 控制器），是 Xerox PARC 在 20 世纪 80 年代为编程语言 Smalltalk－80 发明的一种软件设计模式，至今已广泛应用于用户交互应用程序中。其用意在于将数据与视图分离开来。在 iOS 开发中 MVC 的机制被使用的淋漓尽致。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;数据存储归档-nskeyedarchiver&quot;&gt;数据存储：归档 NSKeyedArchiver&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;归档（又名序列化），把对象转为字节码，以文件的形式存储到磁盘上；程序运行过程中或者当再次重写打开程序的时候，可以通过解归档（反序列化）还原这些对象。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;优点&quot;&gt;优点：&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;归档和解归档操作步骤简单&lt;/li&gt;
+  &lt;li&gt;一次只能归档一个对象，如果是多个对象归档需要分开进行&lt;/li&gt;
+  &lt;li&gt;归档的对象是Foundation框架中的对象&lt;/li&gt;
+  &lt;li&gt;归档和解归档其中任意对象都需要归档和解归档整个文件&lt;/li&gt;
+  &lt;li&gt;归档后的文件是加密的，所以归档文件的扩展名可以随意取&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;在项目中对用户信息和用户偏好设置分别做了归档使用更方便更安全&quot;&gt;在项目中对用户信息和用户偏好设置分别做了归档，使用更方便，更安全。&lt;/h4&gt;
+
+&lt;h2 id=&quot;开发环境xcode&quot;&gt;开发环境：Xcode&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Xcode 是运行在操作系统Mac OS X上的集成开发工具（IDE），由苹果公司开发。Xcode是开发OS X 和 iOS 应用程序的最快捷的方式。Xcode 具有统一的用户界面设计，编码、测试、调试都在一个简单的窗口内完成。&lt;/p&gt;
+&lt;/blockquote&gt;</content><summary type="html">Weker云对讲App概述
+Weker云对讲提供了一个方便的小区门禁系统解决方案，App兼容iOS8.0及以上，可在App Store上输入关键字Weker云对讲搜索下载。</summary></entry><entry><title type="html">tableView上的button点击无效果</title><link href="http://localhost:4000/jekyll/update/2017/02/15/tableView%E4%B8%8A%E7%9A%84button%E7%82%B9%E5%87%BB%E6%97%A0%E6%95%88%E6%9E%9C.html" rel="alternate" type="text/html" title="tableView上的button点击无效果" /><published>2017-02-15T13:21:03+08:00</published><updated>2017-02-15T13:21:03+08:00</updated><id>http://localhost:4000/jekyll/update/2017/02/15/tableView%E4%B8%8A%E7%9A%84button%E7%82%B9%E5%87%BB%E6%97%A0%E6%95%88%E6%9E%9C</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/02/15/tableView%E4%B8%8A%E7%9A%84button%E7%82%B9%E5%87%BB%E6%97%A0%E6%95%88%E6%9E%9C.html">&lt;h3 id=&quot;ios-tableview上的button点击无效果&quot;&gt;iOS tableView上的button点击无效果&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;button 设置了 Normal 和 Highlighted 两种背景图&lt;/li&gt;
+  &lt;li&gt;button 只添加了 TouchUpInside 方法&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Q: 在正常（较为快速）的点击时，根本不显示 Highlighted 效果图，而 长按 时有高亮效果&lt;/p&gt;
+
+&lt;h5 id=&quot;解决方法&quot;&gt;解决方法&lt;/h5&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;self.tableView.delaysContentTouches = NO;
+
+for (UIView *currentView in self.tableView.subviews) {
+    if([currentView isKindOfClass:[UIScrollView class]]) {
+        ((UIScrollView *)currentView).delaysContentTouches = NO;
+        break;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><summary type="html">iOS tableView上的button点击无效果</summary></entry><entry><title type="html">携手溢家  幸福万家</title><link href="http://localhost:4000/jekyll/update/2017/02/05/%E6%90%BA%E6%89%8B%E6%BA%A2%E5%AE%B6-%E5%B9%B8%E7%A6%8F%E4%B8%87%E5%AE%B6.html" rel="alternate" type="text/html" title="携手溢家  幸福万家" /><published>2017-02-05T10:11:03+08:00</published><updated>2017-02-05T10:11:03+08:00</updated><id>http://localhost:4000/jekyll/update/2017/02/05/%E6%90%BA%E6%89%8B%E6%BA%A2%E5%AE%B6%20%20%E5%B9%B8%E7%A6%8F%E4%B8%87%E5%AE%B6</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/02/05/%E6%90%BA%E6%89%8B%E6%BA%A2%E5%AE%B6-%E5%B9%B8%E7%A6%8F%E4%B8%87%E5%AE%B6.html">&lt;p&gt;&lt;img src=&quot;https://hduhky.github.io/sources/yijia_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;作者：hduhky、正能量&lt;/li&gt;
@@ -92,6 +151,7 @@
 
 &lt;h3 id=&quot;以下为溢家能源绍兴分公司地址信息&quot;&gt;以下为溢家能源绍兴分公司地址信息&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;https://hduhky.github.io/sources/yijia_16.png&quot; alt=&quot;溢家能源绍兴分公司地址信息&quot; /&gt;&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;分公司办公室在绍兴市越城区胜利西路1193号，有黄底蓝字牌子：溢家能源绍兴分公司。找不到打我电话，13675723887，黄立新。&lt;/p&gt;
 &lt;/blockquote&gt;
