@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>tableView上的button点击无效果</title>
-  <meta name="description" content="iOS tableView上的button点击无效果">
+  <title>走在iOS开发的路上👣</title>
+  <meta name="description" content="tableViewCell 注册的一些区别">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/jekyll/update/2017/02/15/tableView%E4%B8%8A%E7%9A%84button%E7%82%B9%E5%87%BB%E6%97%A0%E6%95%88%E6%9E%9C.html">
+  <link rel="canonical" href="http://localhost:4000/jekyll/update/2017/03/15/%E8%B5%B0%E5%9C%A8iOS%E5%BC%80%E5%8F%91%E7%9A%84%E8%B7%AF%E4%B8%8A.html">
   <link rel="alternate" type="application/rss+xml" title="hduhky&#39;s blog" href="/feed.xml">
   
   
@@ -61,31 +61,16 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">tableView上的button点击无效果</h1>
-    <p class="post-meta"><time datetime="2017-02-15T13:21:03+08:00" itemprop="datePublished">Feb 15, 2017</time></p>
+    <h1 class="post-title" itemprop="name headline">走在iOS开发的路上👣</h1>
+    <p class="post-meta"><time datetime="2017-03-15T09:56:03+08:00" itemprop="datePublished">Mar 15, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <h3 id="ios-tableview上的button点击无效果">iOS tableView上的button点击无效果</h3>
+    <h1 id="tableviewcell-注册的一些区别"><a href="/blog/tableViewCell注册.html">tableViewCell 注册的一些区别</a></h1>
 
-<ul>
-  <li>button 设置了 Normal 和 Highlighted 两种背景图</li>
-  <li>button 只添加了 TouchUpInside 方法</li>
-</ul>
+<h1 id="由tabbarcontroller想到的"><a href="/blog/由tabBarController想到的.html">由tabBarController想到的</a></h1>
 
-<p>Q: 在正常（较为快速）的点击时，根本不显示 Highlighted 效果图，而 长按 时有高亮效果</p>
-
-<h5 id="解决方法">解决方法</h5>
-<div class="highlighter-rouge"><pre class="highlight"><code>self.tableView.delaysContentTouches = NO;
-
-for (UIView *currentView in self.tableView.subviews) {
-    if([currentView isKindOfClass:[UIScrollView class]]) {
-        ((UIScrollView *)currentView).delaysContentTouches = NO;
-        break;
-    }
-}
-</code></pre>
-</div>
+<h1 id="tableview上的button点击无效果"><a href="/blog/tableView上的button点击无效果.html">tableView上的button点击无效果</a></h1>
 
   </div>
 
