@@ -1,13 +1,12 @@
 body{
 	background-color: #fff;
-	line-height: 3em;
-	letter-spacing: 4px;
+	line-height: 2em;
 }
 
 .container{
 	margin: 0px 20px 0 20px;
 	text-align: left;
-	text-indent: 4em;
+	text-indent: 2em;
 	font-size: 20px;
 }
 
