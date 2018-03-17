@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>中油溢家集团简介</title>
+	<title>中油溢家集团简介及宣传片</title>
   <meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 
@@ -86,7 +86,7 @@
     }
     function createMap(){ 
       map = new BMap.Map("map"); 
-      map.centerAndZoom(new BMap.Point(120.561777,30.011596),19);
+      map.centerAndZoom(new BMap.Point(120.561777,30.011596),18);
     }
     function setMapEvent(){
       map.enableScrollWheelZoom();
@@ -122,13 +122,13 @@
     }
     //向地图添加控件
     function addMapControl(){
-      var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
-      scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
-      map.addControl(scaleControl);
+      // var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+      // scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
+      // map.addControl(scaleControl);
       var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
       map.addControl(navControl);
-      var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:true});
-      map.addControl(overviewControl);
+      // var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:true});
+      // map.addControl(overviewControl);
     }
     var map;
       initMap();
